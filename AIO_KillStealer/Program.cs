@@ -491,7 +491,7 @@ namespace AIO_KillStealer
         
         private static void Game_OnWndProc(WndEventArgs args)
         {
-            if (!Game.IsInGame || args.Msg != (ulong)Utils.WindowsMessages.WM_KEYUP || args.WParam != 'D' || Game.IsChatOpen)
+            if (!Game.IsInGame || args.Msg != (ulong)Utils.WindowsMessages.WM_KEYUP || args.WParam != 'J' || Game.IsChatOpen)
                 return;
             _activ = !_activ;
         }
